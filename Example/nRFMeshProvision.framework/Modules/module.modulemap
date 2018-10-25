@@ -1,0 +1,11 @@
+framework module nRFMeshProvision {
+  umbrella header "nRFMeshProvision-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module nRFMeshProvision.Swift {
+    header "nRFMeshProvision-Swift.h"
+    requires objc
+}
